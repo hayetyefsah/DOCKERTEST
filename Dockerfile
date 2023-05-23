@@ -12,7 +12,7 @@ WORKDIR /usr/app
 
 COPY static static
 COPY templates templates
-COPY client.py .
+COPY main.py .
 COPY instance instance
 COPY uploads uploads
 
