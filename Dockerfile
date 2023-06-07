@@ -1,6 +1,5 @@
-FROM python:3.10
+FROM python:3.11.3-slim-buster
 
-RUN apt update && apt install pip -y 
 
 WORKDIR /usr/build
 
